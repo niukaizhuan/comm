@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.stu.mapper.RecruitMapper" >
+    <!--查询全部信息-->
+    <select id="recruitFindAll" parameterType="java.util.List" resultType="com.stu.pojo.Recruit">
+        select * from recruit
+    </select>
+    <!--通过id查询-->
+    <select id="getRecruitById" parameterType="java.lang.Integer" resultType="com.stu.pojo.Recruit">
+        select *
+        from recruit where rid = #{rid}
+    </select>
+    <!--发布招聘信息-->
+    <insert id="postRecruit" parameterType="com.stu.pojo.Recruit">
+        insert into recruit(cid,companyname,address,postcode,recruitment,workingplace,positiontype,edurequire,
+          description,branch,linkman,telephone,hostpage,email)
+        values (#{cid},#{companyname},#{address},#{postcode},#{recruitment},#{workingplace},
+          #{positiontype},#{edurequire},#{description},#{branch},#{linkman},#{telephone},#{hostpage},#{email})
+    </insert>
+    <!--删除招聘-->
+    <delete id="deleteRecruit" parameterType="Integer">
+        delete from recruit where rid = #{rid}
+    </delete>
+    <!--修改招聘信息-->
+    <update id="updateRecruit" parameterType="Recruit">
+        update recruit set
+          cid = #{cid},
+          companyname = #{companyname},
+          address = #{address},
+          postcode = #{postcode},
+          recruitment = #{recruitment},
+          workingplace = #{workingplace},
+          positiontype = #{positiontype},
+          edurequire = #{edurequire},
+          description = #{description},
+          branch = #{branch},
+          linkman = #{linkman},
+          telephone = #{telephone},
+          hostpage = #{hostpage},
+          email = #{email}
+          where rid = #{rid}
+    </update>
+</mapper>

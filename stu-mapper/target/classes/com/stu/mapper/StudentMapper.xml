@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.stu.mapper.StudentMapper" >
+    <!--查询学生信息-->
+    <select id="stuFindAll" parameterType="java.util.List" resultType="com.stu.pojo.Student">
+        select * from student
+    </select>
+    <!--通过id查询-->
+    <select id="getStudentById" parameterType="java.lang.Integer" resultType="com.stu.pojo.Student">
+        select *
+        from student where sid = #{sid}
+    </select>
+    <!--添加学生信息-->
+    <insert id="insertStudent" parameterType="Student">
+        insert into student (sname, sex, idnumber, school, department, major, education, entrancedate, nativeplace)
+         values (#{sname},#{sex},#{idnumber},#{school},#{department},#{major},#{education},#{entrancedate},#{nativeplace})
+    </insert>
+    <!--删除学生信息-->
+    <delete id="deleteStudent" parameterType="Integer">
+        delete from student where sid = #{sid}
+    </delete>
+</mapper>

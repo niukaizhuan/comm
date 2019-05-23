@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.stu.mapper.CompanyMapper" >
+    <select id="comFindAll" parameterType="java.util.List" resultType="com.stu.pojo.Company">
+        select * from company
+    </select>
+    <!--通过id查询-->
+    <select id="getCompanyById" parameterType="java.lang.Integer" resultType="com.stu.pojo.Company">
+        select *
+        from company where cid = #{cid}
+    </select>
+    <!--添加学生信息-->
+    <insert id="insertCompany" parameterType="Company">
+        insert into company(companyname,unitproperty,licensenumber,industry,unitscale,address,
+                webaddress,linkman,telephone,email,postcode)
+        values (#{companyname},#{unitproperty},#{licensenumber},#{industry},#{unitscale},
+              #{address},#{webaddress},#{linkman},#{telephone},#{email},#{postcode})
+    </insert>
+    <!--删除学生信息-->
+    <delete id="deleteCompany" parameterType="Integer">
+        delete from company where cid = #{cid}
+    </delete>
+</mapper>

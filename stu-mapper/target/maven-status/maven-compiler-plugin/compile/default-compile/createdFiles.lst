@@ -1,0 +1,7 @@
+com\stu\mapper\UserMapper.class
+com\stu\mapper\MessageMapper.class
+com\stu\mapper\CompanyMapper.class
+com\stu\mapper\ResumeMapper.class
+com\stu\mapper\RecruitMapper.class
+com\stu\mapper\EmploymentMapper.class
+com\stu\mapper\StudentMapper.class

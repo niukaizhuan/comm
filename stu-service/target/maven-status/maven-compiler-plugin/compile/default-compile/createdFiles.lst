@@ -1,0 +1,14 @@
+com\stu\service\impl\EmploymentServiceImpl.class
+com\stu\service\impl\UserServiceImpl.class
+com\stu\service\impl\CompanyServiceImpl.class
+com\stu\service\CompanyService.class
+com\stu\service\UserService.class
+com\stu\service\MessageService.class
+com\stu\service\StudentService.class
+com\stu\service\RecruitService.class
+com\stu\service\impl\StudentServiceImpl.class
+com\stu\service\EmploymentService.class
+com\stu\service\ResumeService.class
+com\stu\service\impl\ResumeServiceImpl.class
+com\stu\service\impl\MessageServiceImpl.class
+com\stu\service\impl\RecruitServiceImpl.class
