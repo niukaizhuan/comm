@@ -650,14 +650,19 @@
       <change afterPath="$PROJECT_DIR$/../news/news_pojo/src/main/java/com/app/pojo/Like.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_pojo/src/main/java/com/app/pojo/User.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_pojo/src/main/java/com/app/utils/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_pojo/src/main/java/com/app/utils/ResultInfo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_service/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/BrowsingHistoryService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/CollectionService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/LikeService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/UserService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/impl/BrowsingHistoryServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/impl/CollectionServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/impl/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/impl/LikeServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/impl/UserServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_web/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/java/com/app/controller/ArticleController.java" afterDir="false" />
@@ -665,11 +670,14 @@
       <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/java/com/app/controller/CommentController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/java/com/app/controller/FileUploadController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/java/com/app/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/java/com/app/controller/PageController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/resource/applicationContext.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/resource/properties/db.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/resource/properties/log4j.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/resource/springmvc-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/WEB-INF/jsp/download.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/WEB-INF/jsp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/WEB-INF/jsp/fileUpload.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/WEB-INF/jsp/success.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/index.jsp" afterDir="false" />
@@ -715,7 +723,24 @@
       <change afterPath="$PROJECT_DIR$/../student/student_web/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../student/student_web/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../student/student_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/715c5dcb-d0fb-428d-abef-41684c993762.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/715c5dcb-d0fb-428d-abef-41684c993762.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu-mapper/src/main/java/com/stu/mapper/MessageMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stu-mapper/src/main/java/com/stu/mapper/MessageMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu-mapper/target/classes/com/stu/mapper/MessageMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stu-mapper/target/classes/com/stu/mapper/MessageMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu-pojo/src/main/java/com/stu/pojo/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/stu-pojo/src/main/java/com/stu/pojo/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu-pojo/target/classes/com/stu/pojo/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/stu-pojo/target/classes/com/stu/pojo/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu-service/src/main/java/com/stu/service/impl/MessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/stu-service/src/main/java/com/stu/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu-service/target/classes/com/stu/service/impl/MessageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/stu-service/target/classes/com/stu/service/impl/MessageServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu-web/src/main/java/com/stu/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/stu-web/src/main/java/com/stu/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/addMessage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/addMessage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/updateMessage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/updateMessage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu-web/target/classes/com/stu/controller/MessageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/stu-web/target/classes/com/stu/controller/MessageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu-web/target/stu-web/WEB-INF/classes/com/stu/controller/MessageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/stu-web/target/stu-web/WEB-INF/classes/com/stu/controller/MessageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu-web/target/stu-web/WEB-INF/jsp/message/addMessage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/stu-web/target/stu-web/WEB-INF/jsp/message/addMessage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu-web/target/stu-web/WEB-INF/jsp/message/updateMessage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/stu-web/target/stu-web/WEB-INF/jsp/message/updateMessage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu-web/target/stu-web/WEB-INF/lib/stu-mapper-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/stu-web/target/stu-web/WEB-INF/lib/stu-mapper-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu-web/target/stu-web/WEB-INF/lib/stu-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/stu-web/target/stu-web/WEB-INF/lib/stu-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu-web/target/stu-web/WEB-INF/lib/stu-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/stu-web/target/stu-web/WEB-INF/lib/stu-service-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -763,19 +788,41 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="stu@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="stu: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="message: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="recruit: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="stu@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="stu: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="recruit: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="user_info: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stu-web/src/main/java/com/stu/controller/MessageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-820">
+              <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/addMessage.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="88" column="47" lean-forward="true" selection-start-line="88" selection-start-column="47" selection-end-line="88" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -805,6 +852,7 @@
       <find>element.style</find>
       <find>layui-tab-item</find>
       <find>stuRec</find>
+      <find>mid</find>
     </findStrings>
     <replaceStrings>
       <replace>recruit</replace>
@@ -851,26 +899,26 @@
         <option value="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/resume/updateResume.jsp" />
         <option value="$PROJECT_DIR$/stu-mapper/src/main/java/com/stu/mapper/ResumeMapper.xml" />
         <option value="$PROJECT_DIR$/stu-mapper/src/main/java/com/stu/mapper/EmploymentMapper.xml" />
-        <option value="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/lookMessage.jsp" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/student/studentIndex.jsp" />
         <option value="$PROJECT_DIR$/stu-mapper/src/main/java/com/stu/mapper/StudentMapper.java" />
         <option value="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/admin/left.jsp" />
-        <option value="$PROJECT_DIR$/stu-mapper/src/main/java/com/stu/mapper/MessageMapper.java" />
-        <option value="$PROJECT_DIR$/stu-service/src/main/java/com/stu/service/MessageService.java" />
-        <option value="$PROJECT_DIR$/stu-service/src/main/java/com/stu/service/impl/MessageServiceImpl.java" />
-        <option value="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/messageList.jsp" />
-        <option value="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/addMessage.jsp" />
-        <option value="$PROJECT_DIR$/stu-pojo/src/main/java/com/stu/pojo/Message.java" />
-        <option value="$PROJECT_DIR$/stu-web/src/main/java/com/stu/controller/MessageController.java" />
         <option value="$PROJECT_DIR$/stu-web/src/main/webapp/layui/lay/modules/table.js" />
         <option value="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/student/stuEmploymentList.jsp" />
         <option value="$PROJECT_DIR$/stu-web/src/main/java/com/stu/controller/StudentController.java" />
-        <option value="$PROJECT_DIR$/stu-mapper/src/main/java/com/stu/mapper/MessageMapper.xml" />
-        <option value="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/updateMessage.jsp" />
         <option value="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/student/stuRecruitList.jsp" />
         <option value="$PROJECT_DIR$/stu-web/src/main/webapp/js/student.js" />
         <option value="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/company/companyIndex.jsp" />
+        <option value="$PROJECT_DIR$/stu-pojo/src/main/java/com/stu/pojo/Message.java" />
+        <option value="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/messageList.jsp" />
+        <option value="$PROJECT_DIR$/stu-mapper/src/main/java/com/stu/mapper/MessageMapper.java" />
+        <option value="$PROJECT_DIR$/stu-service/src/main/java/com/stu/service/MessageService.java" />
+        <option value="$PROJECT_DIR$/stu-service/src/main/java/com/stu/service/impl/MessageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/stu-web/src/main/java/com/stu/controller/MessageController.java" />
+        <option value="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/lookMessage.jsp" />
+        <option value="$PROJECT_DIR$/stu-mapper/src/main/java/com/stu/mapper/MessageMapper.xml" />
+        <option value="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/updateMessage.jsp" />
+        <option value="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/addMessage.jsp" />
       </list>
     </option>
   </component>
@@ -905,8 +953,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="491" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="287" />
+    <option name="y" value="193" />
     <option name="width" value="1174" />
     <option name="height" value="732" />
   </component>
@@ -918,9 +967,88 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stu-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stu-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stu-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stu-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stu-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stu-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stu" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stu-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stu-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stu-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stu-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -928,7 +1056,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558601775187" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558771427308" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -1375,12 +1503,13 @@
       <workItem from="1558442009763" duration="2518000" />
       <workItem from="1558489924922" duration="2116000" />
       <workItem from="1558538868318" duration="463000" />
-      <workItem from="1558598093648" duration="3575000" />
+      <workItem from="1558598093648" duration="4403000" />
+      <workItem from="1558757942268" duration="12843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="426578000" />
+    <option name="totallyTimeSpent" value="440249000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1393,8 +1522,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23036253" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.089879155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1404,16 +1534,16 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897863" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4983845" weight="0.6524702" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49773413" visible="true" weight="0.1294719" />
       <window_info anchor="bottom" x="131" y="777" width="1236" height="197" id="Debug" order="3" weight="0.3592881" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32814237" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.8432709" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3270869" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.19387755" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="ConsoleMavenPlugin" order="9" weight="0.32925472" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5016155" side_tool="true" weight="0.3321471" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.23470522" />
+      <window_info anchor="bottom" id="ConsoleMavenPlugin" order="9" weight="0.32879046" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5022659" side_tool="true" weight="0.4088586" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.36967632" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32925472" />
       <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32925472" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32925472" />
@@ -1427,113 +1557,16 @@
       <window_info anchor="right" id="Maven" order="3" weight="0.26586103" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.17900302" />
+      <window_info anchor="right" id="Database" order="6" weight="0.17824773" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.1933657" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1826411" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32897863" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4983845" weight="0.24026696" />
-      <window_info active="true" anchor="bottom" x="131" y="777" width="1236" height="197" id="Debug" order="3" visible="true" weight="0.3592881" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32814237" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.15402843" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="ConsoleMavenPlugin" order="9" weight="0.32925472" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5016155" side_tool="true" weight="0.3321471" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.23470522" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32925472" />
-      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32925472" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32925472" />
-      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.34085512" />
-      <window_info anchor="bottom" id="Spring" order="16" />
-      <window_info anchor="bottom" id="REST Client" order="17" weight="0.5945485" />
-      <window_info anchor="bottom" id="Database Console" order="18" weight="0.32990867" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.2666163" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.26198083" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.1933657" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stu-mapper/src/main/java/com/stu/mapper/ResumeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
-          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/lookMessage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1600">
-          <caret line="80" column="11" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/company/companyList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="809">
-          <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/layui/lay/modules/table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="61" column="20" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/reposi/com/alibaba/fastjson/1.2.47/fastjson-1.2.47.jar!/com/alibaba/fastjson/JSONArray.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2760">
-          <caret line="103" column="21" lean-forward="true" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stu-pojo/src/main/java/com/stu/pojo/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stu-service/src/main/java/com/stu/service/MessageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stu-mapper/src/main/java/com/stu/mapper/StudentMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1567,27 +1600,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/addMessage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/admin/updateUser.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="82" column="31" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stu-mapper/src/main/java/com/stu/mapper/MessageMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1612,18 +1628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stu-service/src/main/java/com/stu/service/impl/MessageServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/student/stuEmploymentList.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-805">
@@ -1638,7 +1642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://715c5dcb-d0fb-428d-abef-41684c993762/schema/stu/table/message" />
     <entry file="file://$PROJECT_DIR$/stu-mapper/src/main/java/com/stu/mapper/EmploymentMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1650,13 +1653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="635">
           <caret line="111" column="40" selection-start-line="111" selection-start-column="40" selection-end-line="111" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/updateMessage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="141" column="14" lean-forward="true" selection-start-line="106" selection-start-column="15" selection-end-line="141" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1685,23 +1681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stu-web/src/main/java/com/stu/controller/MessageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="57" column="7" selection-end-line="99" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stu-mapper/src/main/java/com/stu/mapper/MessageMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1812,13 +1791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://715c5dcb-d0fb-428d-abef-41684c993762/schema/stu/table/user_info">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/company/companyIndex.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1438">
@@ -1839,6 +1811,155 @@
           <folding>
             <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu-web/src/main/java/com/stu/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-580">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu-web/src/main/java/com/stu/controller/CompanyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-977">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://715c5dcb-d0fb-428d-abef-41684c993762/schema/stu/table/user_info">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu-pojo/src/main/java/com/stu/pojo/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+          <folding>
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1065#1066#0" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/messageList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="51" column="45" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu-mapper/src/main/java/com/stu/mapper/MessageMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="123" column="18" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu-mapper/src/main/java/com/stu/mapper/MessageMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu-service/src/main/java/com/stu/service/MessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/updateMessage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu-service/src/main/java/com/stu/service/impl/MessageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/lookMessage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://715c5dcb-d0fb-428d-abef-41684c993762/schema/stu/table/message">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu-web/src/main/java/com/stu/controller/MessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-820">
+          <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/addMessage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="88" column="47" lean-forward="true" selection-start-line="88" selection-start-column="47" selection-end-line="88" selection-end-column="47" />
         </state>
       </provider>
     </entry>

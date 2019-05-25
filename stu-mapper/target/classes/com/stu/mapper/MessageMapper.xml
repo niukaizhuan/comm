@@ -13,18 +13,15 @@
 
     <!--添加留言-->
     <insert id="insertMessage" parameterType="com.stu.pojo.Message">
-        insert into message (id, username, title, msgtime, content, reply, replytime)
-         values (#{id},#{username},#{title},now(),#{content},#{reply},now())
+        insert into message ( username, title, msgtime, content, reply, replytime)
+         values (#{username},#{title},now(),#{content},#{reply},now())
     </insert>
     <!--回复留言-->
     <update id="updateMessage" parameterType="com.stu.pojo.Message">
-        update recruit set
-          id = #{id},
-          username = #{username},
-          title = #{title},
+        update message set
           content = #{content},
           reply = #{reply},
           replytime = now()
-          where mid = #{mid}
+          where id = #{id}
     </update>
 </mapper>

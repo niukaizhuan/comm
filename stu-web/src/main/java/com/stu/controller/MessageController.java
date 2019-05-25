@@ -61,7 +61,7 @@ public class MessageController {
     @RequestMapping("/lookMessage")
     public Message lookMessage(ModelAndView modelAndView, @RequestParam(value = "id", required = false) Integer id) {
         Message message = messageService.getMessageById(id);
-//        System.out.println(message.toString());
+        System.out.println(message.toString());
         modelAndView.addObject("message", message);
         modelAndView.setViewName("message/lookMessage");
         return message;
@@ -73,7 +73,7 @@ public class MessageController {
     @GetMapping("/updateMessage")
     public ModelAndView getUpdateMessagePage(ModelAndView modelAndView,@RequestParam(value = "id",required = false) Integer id) {
         Message message = messageService.getMessageById(id);
-       // System.out.println(message.toString());
+        System.out.println(message.toString());
         modelAndView.addObject("message", message);
         modelAndView.setViewName("message/updateMessage");
         return modelAndView;
@@ -82,10 +82,9 @@ public class MessageController {
     @RequestMapping(value = "/updateMessage", method = RequestMethod.POST)
     @ResponseBody
     public ResultInfo updateMessage(@RequestBody Message message) {
-        ResultInfo resultInfo = new ResultInfo();
         System.out.println(message.toString());
+        ResultInfo resultInfo = new ResultInfo();
         String result = messageService.updateMessage(message);
-        System.out.println(result);
         if(result.equals("success")){
             resultInfo.setCode("200");
             resultInfo.setMessage("用户信息更新成功!");

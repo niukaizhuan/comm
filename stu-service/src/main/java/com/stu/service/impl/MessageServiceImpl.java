@@ -21,12 +21,12 @@ public class MessageServiceImpl implements MessageService {
     /**
      * 查看留言
      *
-     * @param mid
+     * @param
      * @return
      */
     @Override
-    public Message getMessageById(Integer mid) {
-        return messageMapper.getMessageById(mid);
+    public Message getMessageById(Integer id) {
+        return messageMapper.getMessageById(id);
     }
 
     /**

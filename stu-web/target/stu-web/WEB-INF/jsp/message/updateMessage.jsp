@@ -20,24 +20,29 @@
 </fieldset>
 
 <form class="layui-form" action="" lay-filter="example">
+    <div>
+        <input id="id" name="id" style="display: none">
+    </div>
     <div class="layui-form-item">
         <div class="layui-inline">
             <label class="layui-form-label">留言用户</label>
             <div class="layui-input-inline">
-                <input type="text" id="username" name="username" required lay-verify="required" autocomplete="off" class="layui-input">
+                <input type="text" id="username" name="username" required lay-verify="required" autocomplete="off"
+                       class="layui-input">
             </div>
         </div>
         <div class="layui-inline">
             <label class="layui-form-label">留言标题:</label>
             <div class="layui-input-inline">
-                <input type="text" id="title" name="title" required lay-verify="required" autocomplete="off" class="layui-input">
+                <input type="text" id="title" name="title" required lay-verify="required" autocomplete="off"
+                       class="layui-input">
             </div>
         </div>
         <%--<div class="layui-inline">--%>
-            <%--<label class="layui-form-label">留言时间:</label>--%>
-            <%--<div class="layui-input-inline">--%>
-                <%--<input type="text" name="mid"  autocomplete="off" class="layui-input">--%>
-            <%--</div>--%>
+        <%--<label class="layui-form-label">留言时间:</label>--%>
+        <%--<div class="layui-input-inline">--%>
+        <%--<input type="text" name="mid"  autocomplete="off" class="layui-input">--%>
+        <%--</div>--%>
         <%--</div>--%>
     </div>
     <div class="layui-form-item layui-form-text">
@@ -60,7 +65,7 @@
 
 </form>
 <script>
-    layui.use(['form', 'layedit','layer'], function() {
+    layui.use(['form', 'layedit', 'layer'], function () {
         var form = layui.form,
             layer = layui.layer,
             layedit = layui.layedit
@@ -74,35 +79,34 @@
             //     title: '最终的提交信息'
             // })
             console.log(JSON.stringify(data.field))
-                $.ajax({
-                    url:"/message/updateMessage",
-                    method: 'post',
-                    contentType: "application/json",
-                    data: JSON.stringify(data.field),
-                    dataType: 'JSON',
-                    success:function (data) {
-                        if (data.code === '200') {
-                            alert(data.message);
-                            window.location.href="/message/messageList"
-                        } else {
-                            alert(data.message);
-                        }
-                    },
-                    error:function (error) {
+            $.ajax({
+                url: "/message/updateMessage",
+                method: 'post',
+                contentType: "application/json",
+                data: JSON.stringify(data.field),
+                dataType: 'JSON',
+                success: function (data) {
+                    if (data.code === '200') {
+                        alert(data.message);
+                        window.location.href = "/message/messageList"
+                    } else {
+                        alert(data.message);
                     }
-                })
-                return false;
-            });
+                },
+                error: function (error) {
+                }
+            })
+            return false;
+        });
 
-            //表单初始赋值
-            form.val('example', {
-            "mid":"${message.mid}",
+        //表单初始赋值
+        form.val('example', {
+            "id": "${message.id}",
             "username": "${message.username}", // "name": "value"
             "title": "${message.title}",
-            "msgtime": "${message.msgtime}",
             "content": "${message.content}",
             "reply": "${message.reply}"
-            });
+        });
 
         //      function updateMesage() {
         //         var mid = $("#mid").val();

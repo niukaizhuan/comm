@@ -35,7 +35,7 @@
         <div class="layui-inline">
             <label class="layui-form-label">留言人</label>
             <div class="layui-input-block">
-                <input type="text" name="username" required lay-verify="required" placeholder="请输入名字" autocomplete="off" class="layui-input">
+                <input type="text" name="username"  required lay-verify="required" placeholder="请输入名字" autocomplete="off" class="layui-input">
             </div>
         </div>
         <div class="layui-form-item">
@@ -59,7 +59,7 @@
         //监听提交
         form.on('submit(demo1)', function(data) {
 
-            console.log(JSON.stringify(data.field))
+            console.log("我是前端的"+JSON.stringify(data.field))
 
             $.ajax({
                 url: '/message/addMessage',
@@ -82,6 +82,14 @@
                 }
 
             });
+        });
+
+        //表单初始赋值
+        form.val('example', {
+            "username": "${message.username}", // "name": "value"
+            "title": "${message.title}",
+            "content": "${message.content}",
+            "reply": "${message.reply}"
         });
     });
 </script>
