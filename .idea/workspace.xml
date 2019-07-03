@@ -7,9 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="336130ad-6a3a-4399-bc1b-5108c08f1846" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../generatorSqlmapCustom/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../generatorSqlmapCustom/generatorSqlmapCustom/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../generatorSqlmapCustom/generatorSqlmapCustom/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/generatorSqlmapCustom/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/generatorSqlmapCustom/.idea/generatorSqlmapCustom.iml" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/generatorSqlmapCustom/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/generatorSqlmapCustom/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/generatorSqlmapCustom/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/generatorSqlmapCustom/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../generator/generator/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../generator/generator/.idea/generator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../generator/generator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../generator/generator/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../generator/generator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../generator/generator/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jittest/WebContent/test/courseType.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jittest/WebContent/test/js/courseType.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../manong/.idea/compiler.xml" afterDir="false" />
@@ -635,12 +644,16 @@
       <change afterPath="$PROJECT_DIR$/../news/news_mapper/src/main/java/com/app/mapper/CollectionMapper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_mapper/src/main/java/com/app/mapper/CommentMapper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_mapper/src/main/java/com/app/mapper/LikeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_mapper/src/main/java/com/app/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_mapper/src/main/java/com/app/mapper/TableTitleMapper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_mapper/src/main/java/com/app/mapper/UserMapper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_mapper/src/main/java/com/app/mapping/ArticleMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_mapper/src/main/java/com/app/mapping/BrowsingHistoryMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_mapper/src/main/java/com/app/mapping/CollectionMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_mapper/src/main/java/com/app/mapping/CommentMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_mapper/src/main/java/com/app/mapping/LikeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_mapper/src/main/java/com/app/mapping/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_mapper/src/main/java/com/app/mapping/TableTitleMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_mapper/src/main/java/com/app/mapping/UserMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_pojo/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_pojo/src/main/java/com/app/pojo/Article.java" afterDir="false" />
@@ -648,6 +661,8 @@
       <change afterPath="$PROJECT_DIR$/../news/news_pojo/src/main/java/com/app/pojo/Collection.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_pojo/src/main/java/com/app/pojo/Comment.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_pojo/src/main/java/com/app/pojo/Like.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_pojo/src/main/java/com/app/pojo/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_pojo/src/main/java/com/app/pojo/TableTitle.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_pojo/src/main/java/com/app/pojo/User.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_pojo/src/main/java/com/app/utils/DateUtil.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_pojo/src/main/java/com/app/utils/ResultInfo.java" afterDir="false" />
@@ -657,12 +672,16 @@
       <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/CollectionService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/CommentService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/LikeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/TableTitleService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/UserService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/impl/ArticleServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/impl/BrowsingHistoryServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/impl/CollectionServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/impl/CommentServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/impl/LikeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/impl/TableTitleServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_service/src/main/java/com/app/service/impl/UserServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_web/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/java/com/app/controller/ArticleController.java" afterDir="false" />
@@ -671,17 +690,76 @@
       <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/java/com/app/controller/FileUploadController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/java/com/app/controller/IndexController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/java/com/app/controller/PageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/java/com/app/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/java/com/app/controller/TableTitleController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/resource/applicationContext.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/resource/properties/db.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/resource/properties/log4j.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/resource/springmvc-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/WEB-INF/jsp/download.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/WEB-INF/jsp/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/WEB-INF/jsp/fileUpload.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/WEB-INF/jsp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/WEB-INF/jsp/download.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/WEB-INF/jsp/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/WEB-INF/jsp/fileUpload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/WEB-INF/jsp/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/WEB-INF/jsp/success.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/bootstrap-3.3.7/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/bootstrap-3.3.7/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/bootstrap-3.3.7/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/bootstrap-3.3.7/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/bootstrap-3.3.7/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/bootstrap-3.3.7/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/bootstrap-3.3.7/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/bootstrap-3.3.7/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/bootstrap-3.3.7/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/bootstrap-3.3.7/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/bootstrap-3.3.7/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/iview-2.0/css/ionicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/iview-2.0/css/ionicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/iview-2.0/css/iview.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/iview-2.0/fonts/ionicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/iview-2.0/fonts/ionicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/iview-2.0/fonts/ionicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/iview-2.0/fonts/ionicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/iview-2.0/js/iview.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/iview-3.3.3/css/fonts/ionicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/iview-3.3.3/css/fonts/ionicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/iview-3.3.3/css/fonts/ionicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/iview-3.3.3/css/iview.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/iview-3.3.3/iview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/iview-3.3.3/iview.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/jquery/jQuery-2.1.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/jquery/jquery-1.9.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/other/css/body.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/other/css/pop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/other/css/vue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/other/js/callBackAjax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/other/js/jitsoseUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/other/js/jitsoseVue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/other/js/tableTitleUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/other/js/verify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/vue/vue-2.5.13.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/vue/vue-2.6.10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/vue/vue-2.6.10.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/public/vue/vue-router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../news/news_web/src/main/webapp/vue/article.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../news/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-web/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-web/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-web/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-web/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-web/spring-boot-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-web/src/main/java/com/nkz/springbootweb/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-web/src/main/resources/news.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-web/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-web/src/main/resources/templates/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/src/main/java/com/nkz/springboot/controller/HelloController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../student/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../student/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../student/.idea/misc.xml" afterDir="false" />
@@ -723,6 +801,11 @@
       <change afterPath="$PROJECT_DIR$/../student/student_web/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../student/student_web/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../student/student_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu-web/src/main/java/com/stu/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/stu-web/src/main/java/com/stu/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/admin/userList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/admin/userList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu-web/target/classes/com/stu/controller/MessageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/stu-web/target/classes/com/stu/controller/MessageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu-web/target/stu-web/WEB-INF/classes/com/stu/controller/MessageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/stu-web/target/stu-web/WEB-INF/classes/com/stu/controller/MessageController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -792,8 +875,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stu-web/src/main/java/com/stu/controller/MessageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+            <state relative-caret-position="1880">
+              <caret line="94" column="26" lean-forward="true" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -810,59 +893,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/addMessage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
+            <state relative-caret-position="-445">
               <caret line="31" column="103" selection-start-line="31" selection-start-column="103" selection-end-line="31" selection-end-column="103" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/updateMessage.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="960">
-              <caret line="48" column="18" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="99" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stu-pojo/src/main/java/com/stu/pojo/Message.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="26" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="26" />
-              <folding>
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#535#536#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#637#638#0" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
-                <element signature="e#703#704#0" expanded="true" />
-                <element signature="e#733#734#0" expanded="true" />
-                <element signature="e#777#778#0" expanded="true" />
-                <element signature="e#815#816#0" expanded="true" />
-                <element signature="e#849#850#0" expanded="true" />
-                <element signature="e#879#880#0" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-                <element signature="e#963#964#0" expanded="true" />
-                <element signature="e#995#996#0" expanded="true" />
-                <element signature="e#1023#1024#0" expanded="true" />
-                <element signature="e#1065#1066#0" expanded="true" />
-                <element signature="e#1099#1100#0" expanded="true" />
-                <element signature="e#1133#1134#0" expanded="true" />
-                <element signature="e#1165#1166#0" expanded="true" />
-                <element signature="e#1213#1214#0" expanded="true" />
-                <element signature="e#1255#1256#0" expanded="true" />
-              </folding>
+              <caret line="111" column="13" lean-forward="true" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -870,8 +914,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/student/studentIndex.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2720">
-              <caret line="136" column="11" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
+            <state relative-caret-position="655">
+              <caret line="50" column="60" lean-forward="true" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
+              <folding>
+                <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/admin/userList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1940">
+              <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -923,7 +979,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/stu-web/src/main/java/com/stu/controller/EmploymentController.java" />
         <option value="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/ueditor_test.jsp" />
         <option value="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/recruit/addRecruit.jsp" />
         <option value="$PROJECT_DIR$/stu-web/src/main/java/com/stu/controller/CompanyController.java" />
@@ -969,11 +1024,12 @@
         <option value="$PROJECT_DIR$/stu-mapper/src/main/java/com/stu/mapper/MessageMapper.java" />
         <option value="$PROJECT_DIR$/stu-service/src/main/java/com/stu/service/MessageService.java" />
         <option value="$PROJECT_DIR$/stu-service/src/main/java/com/stu/service/impl/MessageServiceImpl.java" />
-        <option value="$PROJECT_DIR$/stu-web/src/main/java/com/stu/controller/MessageController.java" />
         <option value="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/lookMessage.jsp" />
         <option value="$PROJECT_DIR$/stu-mapper/src/main/java/com/stu/mapper/MessageMapper.xml" />
         <option value="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/updateMessage.jsp" />
         <option value="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/addMessage.jsp" />
+        <option value="$PROJECT_DIR$/stu-web/src/main/java/com/stu/controller/MessageController.java" />
+        <option value="$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/admin/userList.jsp" />
       </list>
     </option>
   </component>
@@ -1009,10 +1065,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="287" />
-    <option name="y" value="193" />
-    <option name="width" value="1174" />
-    <option name="height" value="732" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -1027,133 +1083,14 @@
           <expand>
             <path>
               <item name="stu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stu-pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stu-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stu-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stu-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stu-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
               <item name="stu-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stu-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stu-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stu-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stu-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stu-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stu" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stu-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stu-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stu-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stu-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stu-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="resume" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stu-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="student" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1613,11 +1550,15 @@
       <workItem from="1558779058368" duration="152000" />
       <workItem from="1558781948167" duration="803000" />
       <workItem from="1558796746710" duration="27000" />
+      <workItem from="1561030879089" duration="1910000" />
+      <workItem from="1561033587621" duration="80000" />
+      <workItem from="1561034096815" duration="298000" />
+      <workItem from="1561034432201" duration="2239000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="441969000" />
+    <option name="totallyTimeSpent" value="446496000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1629,10 +1570,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28432956" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19116081" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1642,7 +1583,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897863" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49773413" weight="0.38160136" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49773413" weight="0.38153505" />
       <window_info anchor="bottom" x="131" y="777" width="1236" height="197" id="Debug" order="3" weight="0.3592881" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1651,7 +1592,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="ConsoleMavenPlugin" order="9" weight="0.32879046" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5022659" side_tool="true" weight="0.4088586" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.36967632" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.36929923" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32925472" />
       <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32925472" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32925472" />
@@ -1714,32 +1655,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stu-web/target/classes/com/stu/controller/StudentController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1795" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stu-service/src/main/java/com/stu/service/EmploymentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stu-pojo/src/main/java/com/stu/pojo/Employment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/recruit/updateRecruit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-379">
-          <caret line="153" column="33" lean-forward="true" selection-start-line="153" selection-start-column="33" selection-end-line="153" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/admin/updateUser.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -2032,16 +1947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stu-web/src/main/java/com/stu/controller/MessageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/resume/addResume.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3440">
@@ -2049,16 +1954,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/updateMessage.jsp">
+    <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/admin/left.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/admin/adminIndex.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu-web/target/classes/com/stu/controller/MessageController.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="48" column="18" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="99" />
+        <state relative-caret-position="661">
+          <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu-web/src/main/java/com/stu/controller/MessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1880">
+          <caret line="94" column="26" lean-forward="true" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stu-pojo/src/main/java/com/stu/pojo/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="-751">
           <caret line="13" column="26" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="26" />
           <folding>
             <element signature="e#291#292#0" expanded="true" />
@@ -2093,17 +2014,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/admin/userList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1940">
+          <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/student/studentIndex.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2720">
-          <caret line="136" column="11" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
+        <state relative-caret-position="655">
+          <caret line="50" column="60" lean-forward="true" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/addMessage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
+        <state relative-caret-position="-445">
           <caret line="31" column="103" selection-start-line="31" selection-start-column="103" selection-end-line="31" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu-web/src/main/webapp/WEB-INF/jsp/message/updateMessage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="111" column="13" lean-forward="true" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
         </state>
       </provider>
     </entry>

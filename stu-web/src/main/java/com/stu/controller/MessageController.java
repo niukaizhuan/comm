@@ -61,7 +61,7 @@ public class MessageController {
     @RequestMapping("/lookMessage")
     public Message lookMessage(ModelAndView modelAndView, @RequestParam(value = "id", required = false) Integer id) {
         Message message = messageService.getMessageById(id);
-        System.out.println(message.toString());
+        //System.out.println(message.toString());
         modelAndView.addObject("message", message);
         modelAndView.setViewName("message/lookMessage");
         return message;
