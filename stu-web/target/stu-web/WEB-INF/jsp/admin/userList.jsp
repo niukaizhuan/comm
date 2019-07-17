@@ -93,7 +93,7 @@
                         alert(data.message);
                         location.reload(true);
                         window.location.href="/user/userList"
-                    }else{
+                    }else {
                         alert(data.message);
                     }
                 },
